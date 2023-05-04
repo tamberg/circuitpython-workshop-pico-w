@@ -1,5 +1,7 @@
 # IoT Embedded Programming with CircuitPython
 
+> TODO: Port examples and images to Raspberry Pi Pico W
+
 ## Workshop
 The Internet of Things ([IoT](http://www.tamberg.org/fhnw/2021/hs/IoT01Introduction.pdf)) is the convergence of internet and real world. IoT embedded devices typically have limited resources, but they are also becoming more performant with each generation. This allows an interpreted language like Python, which is less efficient but more convenient than C, to run on a microcontroller.
 
