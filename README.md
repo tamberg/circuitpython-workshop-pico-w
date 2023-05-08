@@ -82,9 +82,9 @@ Now you are ready to try [GPIO & sensors](#gpio--sensors).
 ## Hardware setup
 We use an [ESP32-S2 microcontroller](#esp32-s2) with [Grove sensors and actuators](#grove-sensors--actuators).
 
-### ESP32-S2
+### Pico W
 #### Buy
-* https://www.adafruit.com/product/5325 (Adafruit QT Py ESP32-S2 WiFi Dev Board)
+* https://www.adafruit.com/product/5526 (Raspberry Pi Pico W)
 * https://www.adafruit.com/product/4198 (USB C to USB C cable for data transfer)
 * https://www.adafruit.com/product/4175 (USB C to USB A adapter, optional)
 * https://www.adafruit.com/product/65 (Breadboard, to connect sensors)
