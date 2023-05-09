@@ -80,7 +80,7 @@ $ cp hello/code.py /Volumes/CIRCUITPY/code.py
 Now you are ready to try [GPIO & sensors](#gpio--sensors).
 
 ## Hardware setup
-We use an [ESP32-S2 microcontroller](#esp32-s2) with [Grove sensors and actuators](#grove-sensors--actuators).
+We use a [Pico W microcontroller](#pico-w) with [Grove sensors and actuators](#grove-sensors--actuators).
 
 ### Pico W
 #### Buy
@@ -118,13 +118,12 @@ Now the board should show up as a USB drive named _CIRCUITPY_.
 * https://learn.adafruit.com/welcome-to-circuitpython/troubleshooting
 
 #### Pinout
-<img text="Pico W Pinout, (c) Raspberry Pi" src="https://www.raspberrypi.com/documentation/microcontrollers/images/pico-pinout.svg" width="800"/>
+<img text="Pico W Pinout, (c) Raspberry Pi" src="https://www.raspberrypi.com/documentation/microcontrollers/images/picow-pinout.svg" width="800"/>
 
-* https://learn.adafruit.com/assets/107493 (Pinout)
-* https://learn.adafruit.com/adafruit-qt-py-esp32-s2/pinouts
+* https://www.raspberrypi.com/documentation/microcontrollers/raspberry-pi-pico.html#pinout-and-design-files-2 (Pinout)
 
 #### Schematic
-<img text="ESP32-S2 Schematic, (c) Adafruit" src="https://cdn-learn.adafruit.com/assets/assets/000/110/384/original/adafruit_products_QT_Py_rev_C_sch.png?1648589651" width="640"/>
+<img text="Pico W Schematic, (c) Raspberry Pi" src="https://cdn-learn.adafruit.com/assets/assets/000/110/384/original/adafruit_products_QT_Py_rev_C_sch.png?1648589651" width="640"/>
 
 * https://learn.adafruit.com/assets/110384 (Schematic)
 * https://learn.adafruit.com/adafruit-qt-py-esp32-s2/downloads
