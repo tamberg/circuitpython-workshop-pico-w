@@ -119,8 +119,6 @@ Now the board should show up as a USB drive named _CIRCUITPY_.
 <img text="Pico W Schematic, (c) Raspberry Pi" src="TODO" width="640"/>
 
 * TODO (Schematic)
-* https://learn.adafruit.com/adafruit-qt-py-esp32-s2/downloads
-* https://github.com/adafruit/Adafruit-QT-Py-ESP32-S2-PCB
 
 #### Datasheets
 * [Pico W Datasheet](https://datasheets.raspberrypi.com/picow/pico-w-datasheet.pdf)
@@ -150,7 +148,7 @@ import board
 import digitalio
 import time
 
-actuator = digitalio.DigitalInOut(board.D18)
+actuator = digitalio.DigitalInOut(board.LED) # or board.GP1 (Grove), GP3 (Grove), GP8 (batch LED)
 actuator.direction = digitalio.Direction.OUTPUT
 
 while True:
@@ -179,7 +177,7 @@ import board
 import digitalio
 import time
 
-sensor = digitalio.DigitalInOut(board.D18)
+sensor = digitalio.DigitalInOut(board.GP6) # or board.GP1 (Grove), GP3 (Grove)
 sensor.direction = digitalio.Direction.INPUT
 sensor.pull = digitalio.Pull.UP
 
