@@ -85,15 +85,14 @@ We use an [ESP32-S2 microcontroller](#esp32-s2) with [Grove sensors and actuator
 ### Pico W
 #### Buy
 * https://www.adafruit.com/product/5526 (Raspberry Pi Pico W)
-* https://www.adafruit.com/product/4198 (USB C to USB C cable for data transfer)
-* https://www.adafruit.com/product/4175 (USB C to USB A adapter, optional)
-* https://www.adafruit.com/product/65 (Breadboard, to connect sensors)
+* https://www.adafruit.com/product/3879 (USB C to USB Micro cable for data transfer)
+* https://www.adafruit.com/product/4175 (USB A to USB C adapter, optional)
 
 #### Board
-https://circuitpython.org/board/adafruit_qtpy_esp32s2/
+https://circuitpython.org/board/raspberry_pi_pico_w/
 
-#### ESP32-S2 ROM bootloader mode (once)
-To get the ESP32-S2 into [ROM bootloader mode](https://learn.adafruit.com/adafruit-qt-py-esp32-s2/pinouts#buttons-3107929)
+#### Pico W ROM bootloader mode (once)
+To get the Pico W into [ROM bootloader mode](https://learn.adafruit.com/adafruit-qt-py-esp32-s2/pinouts#buttons-3107929)
 
 * Press and hold the _BOOT_ button
 * Then, press the _RESET_ button
@@ -119,7 +118,7 @@ Now the board should show up as a USB drive named _CIRCUITPY_.
 * https://learn.adafruit.com/welcome-to-circuitpython/troubleshooting
 
 #### Pinout
-<img text="ESP32-S2 Pinout, (c) Adafruit" src="https://cdn-learn.adafruit.com/assets/assets/000/107/493/original/adafruit_products_Adafruit_QT_Py_ESP32-S2_Pinout.png?1640130293" width="800"/>
+<img text="Pico W Pinout, (c) Raspberry Pi" src="https://www.raspberrypi.com/documentation/microcontrollers/images/pico-pinout.svg" width="800"/>
 
 * https://learn.adafruit.com/assets/107493 (Pinout)
 * https://learn.adafruit.com/adafruit-qt-py-esp32-s2/pinouts
