@@ -92,25 +92,17 @@ We use a [Pico W microcontroller](#pico-w) with [Grove sensors and actuators](#g
 https://circuitpython.org/board/raspberry_pi_pico_w/
 
 #### Pico W ROM bootloader mode (once)
-To get the Pico W into [ROM bootloader mode](https://learn.adafruit.com/adafruit-qt-py-esp32-s2/pinouts#buttons-3107929)
+To get the Pico W into ROM bootloader mode
 
-* Press and hold the _BOOT_ button
-* Then, press the _RESET_ button
-* Release the _BOOT_ button
+* Press and hold the _BOOTSEL_ button
+* Unplug, then plug in the Pico W via USB
 
 Now the board should show up as a USB device, e.g. /dev/cu.usbmodem01 on MacOS or COM3 on Windows.
 
-#### Install UF2 bootloader (once)
-To install the UF2 bootloader, follow the steps to _Install, Repair, or Update UF2 Bootloader_ at the bottom of https://circuitpython.org/board/adafruit_qtpy_esp32s2/
-
-Use https://nabucasa.github.io/esp-web-flasher/ with _combined.bin_ from [tinyuf2-adafruit_qtpy_esp32s2-0.10.2.zip](https://github.com/adafruit/tinyuf2/releases/download/0.10.2/tinyuf2-adafruit_qtpy_esp32s2-0.10.2.zip)
-
-Now press _RESET_ to make the board show up as a USB drive named _QTPYS2BOOT_.
-
 #### Install CircuitPython (once)
-Download the board specific .UF2 file from https://circuitpython.org/board/adafruit_qtpy_esp32s2/
+Download the board specific .UF2 file from https://circuitpython.org/board/raspberry_pi_pico_w/
 
-Drop it on the USB drive named _QTPYS2BOOT_ and wait until the drive disconnects.
+Drop it on the USB drive named _TODO_ and wait until the drive disconnects.
 
 Now the board should show up as a USB drive named _CIRCUITPY_.
 
