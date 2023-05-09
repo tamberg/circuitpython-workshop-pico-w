@@ -102,11 +102,12 @@ Now the board should show up as a USB device, e.g. /dev/cu.usbmodem01 on MacOS o
 #### Install CircuitPython (once)
 Download the board specific .UF2 file from https://circuitpython.org/board/raspberry_pi_pico_w/
 
-Drop it on the USB drive named _TODO_ and wait until the drive disconnects.
+Drop it on the USB drive named _RPI-RP2_ and wait until the drive disconnects.
 
 Now the board should show up as a USB drive named _CIRCUITPY_.
 
 #### Troubleshooting
+* https://learn.adafruit.com/pico-w-wifi-with-circuitpython/installing-circuitpython#flash-resetting-uf2-3128829 (Flash resetting UF2)
 * https://learn.adafruit.com/welcome-to-circuitpython/troubleshooting
 
 #### Pinout
@@ -115,9 +116,9 @@ Now the board should show up as a USB drive named _CIRCUITPY_.
 * https://www.raspberrypi.com/documentation/microcontrollers/raspberry-pi-pico.html#pinout-and-design-files-2 (Pinout)
 
 #### Schematic
-<img text="Pico W Schematic, (c) Raspberry Pi" src="https://cdn-learn.adafruit.com/assets/assets/000/110/384/original/adafruit_products_QT_Py_rev_C_sch.png?1648589651" width="640"/>
+<img text="Pico W Schematic, (c) Raspberry Pi" src="TODO" width="640"/>
 
-* https://learn.adafruit.com/assets/110384 (Schematic)
+* TODO (Schematic)
 * https://learn.adafruit.com/adafruit-qt-py-esp32-s2/downloads
 * https://github.com/adafruit/Adafruit-QT-Py-ESP32-S2-PCB
 
