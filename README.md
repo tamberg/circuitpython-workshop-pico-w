@@ -148,7 +148,7 @@ import board
 import digitalio
 import time
 
-actuator = digitalio.DigitalInOut(board.LED) # or board.GP1 (Grove), GP3 (Grove), GP8 (batch LED)
+actuator = digitalio.DigitalInOut(board.LED) # or board.GP1 (Grove), GP3 (Grove), GP8 (badge LED)
 actuator.direction = digitalio.Direction.OUTPUT
 
 while True:
